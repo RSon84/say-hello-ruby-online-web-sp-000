@@ -2,7 +2,7 @@
 def say_hello("name")
 if name == "Kent Beck"
   puts "Hello Kent Beck!"
-else
+else name != "Kent Beck"
   puts "Ruby Programmer!"
 end
 
